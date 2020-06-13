@@ -3,11 +3,11 @@ Sorting algorithms implemented in C language including bubble sort, insertion so
 
 ## Data Structures and Functions:
 ### Functions:
-#### * [print_array](./print_array.c): Print array of integers
-#### * [print_list](./print_list.c): Print a list of integers
+* [print_array](./print_array.c): Print array of integers
+* [print_list](./print_list.c): Print a list of integers
 
 ### Data Structures:
-#### *[doubly linked list]
+* doubly linked list:
 
 ``` c-objdump
 /**
@@ -17,11 +17,11 @@ Sorting algorithms implemented in C language including bubble sort, insertion so
 * @prev: Pointer to the previous element of the list
 * @next: Pointer to the next element of the list
 */
-      typedef struct listint_s
-      {
-          const int n;
-              struct listint_s *prev;
-                  struct listint_s *next;
+typedef struct listint_s
+{
+    const int n;
+    struct listint_s *prev;
+    struct listint_s *next;
 } listint_t;
 ```
 
@@ -35,4 +35,5 @@ Sorting algorithms implemented in C language including bubble sort, insertion so
 * n + k -> O(n+k)
 
 ## Tasks:
-### * [0.Bubble sort](./0-bubble_sort.c)
+* [0.Bubble sort](./0-bubble_sort.c):
+function that sorts an array of integers in ascending order using the [Bubble sort algorithm](https://en.wikipedia.org/wiki/Bubble_sort)
