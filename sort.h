@@ -15,6 +15,9 @@ struct listint_s *prev;
 struct listint_s *next;
 } listint_t;
 
+void recQsort(int *array, int low, int high, size_t size);
+void quick_sort(int *array, size_t size);
+int lomuto(int *array, int low, int high, size_t size);
 void swap(int *first, int *second);
 void selection_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
